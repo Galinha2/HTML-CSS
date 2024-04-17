@@ -3,6 +3,9 @@
 
  Estou a aprender criar sites atravês da escola 'Estudonauta' facultada por o professor Gustavo Guanabara
 
-Projeto <a href="https://galinha2.github.io/HTML-CSS/Desafios/d010/index.html
+Projetos:
+
+ <a href="https://galinha2.github.io/HTML-CSS/Desafios/d010/index.html
 ">Android</a>
- Projeto Cordel Moderno: https://galinha2.github.io/HTML-CSS/Desafios/d012/cordel.html
+ 
+ <a href="https://galinha2.github.io/HTML-CSS/Desafios/d012/cordel.html">Cordel Moderno</a>
