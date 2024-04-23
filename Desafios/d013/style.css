@@ -26,9 +26,8 @@ main {
 #home {
     position: absolute;
     top: 52%;
-    left: 50%;
+    left: 48.4%;
     transform: translate(-41%,-61.1%);
-    margin: auto;
     width: 305px;
     height: 659px;
     border-radius: 20px;
@@ -37,7 +36,22 @@ main {
 }
 
 #redes {
-   
+    display: block;
+    background-color: rgba(169, 169, 169, 0.87);
+    width: 320px;
+    border-radius: 30px;
+    margin: auto;
+    position: absolute;
+    top: 87%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+}
+
+#redes img {
+    width: 50px;
+    margin: 10px 0px 6px 10px;
+    border-radius: 20px;
+    padding: 7px;
 }
 
 #iphone {
@@ -47,7 +61,7 @@ main {
     height: 96.1vh;
     position: absolute;
     top: 52%;
-    left: 50%;
+    left: 48.4%;
     transform: translate(-50%, -50%);
     margin: auto;
     z-index: 2;
