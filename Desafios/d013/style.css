@@ -35,6 +35,17 @@ section#iphone {
     background-size: 865px;
 }
 
+#black {
+    background-color: black;
+    transform: translate(0%, 12.5%);
+    display: block;
+    border-radius: 41px;
+    margin: auto;
+    width: 307px;
+    height: 663px;
+    
+}
+
 #notch {
     background-size: 90px;
     width: 90px;
@@ -49,12 +60,11 @@ section#iphone {
     height: 5px;
     margin: auto;
     border-radius: 20px;
-    transform: translate(-0%, 14700%);
+    transform: translate(-0%, 1400%);
 }
 
 #home {
-    position: relative;
-    top: 8.7%;
+    transform: translate(0%, 12.5%);
     display: block;
     border-radius: 41px;
     margin: auto;
@@ -68,7 +78,7 @@ section#iphone {
     height: 80px;
     border-radius: 30px;
     margin: auto;
-    transform: translate(0%, 950%);   
+    transform: translate(0%, 130%);   
 }
 
 #redes img {
