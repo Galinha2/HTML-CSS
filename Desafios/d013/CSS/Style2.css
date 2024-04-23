@@ -37,6 +37,7 @@ a:hover {
     margin: auto;
     width: 245px;
     color: rgb(196, 196, 196);
+    background-color: rgba(116, 116, 116, 0.739);
     border-radius: 40px;
     transition: 1s;
 }
