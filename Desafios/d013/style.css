@@ -7,45 +7,68 @@
 }
 
 html, body {
-    width: 98vw;
-    height: 98vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: #594933;
 }
 
 body {
-    display: block;
-    background: #594933 url(imagens/fundo-madeira.jpg) top center no-repeat;
+    background: url(imagens/fundo-madeira.jpg) top center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 main {
-    height: 100vh;
     position: relative;
+    height: 100vh;
+}
+
+section#iphone {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100vw;
+    height: 100vh;
+    background: url(imagens/iPhone.png) top center no-repeat fixed;
+    background-size: 865px;
+}
+
+#notch {
+    background-size: 90px;
+    width: 90px;
+    display: block;
+    margin: auto;
+    transform: translate(-0%, -1850%);
+}
+
+#bar {
+    background-color: rgb(210, 210, 210);
+    width: 130px;
+    height: 5px;
+    margin: auto;
+    border-radius: 20px;
+    transform: translate(-0%, 14700%);
 }
 
 #home {
-    position: absolute;
-    top: 52%;
-    left: 48.4%;
-    transform: translate(-41%,-61.1%);
-    width: 305px;
-    height: 659px;
-    border-radius: 20px;
-    z-index: 1;
-    background-color: black;
+    position: relative;
+    top: 8.7%;
+    display: block;
+    border-radius: 41px;
+    margin: auto;
+    width: 307px;
+    height: 663px;
 }
 
 #redes {
-    display: block;
     background-color: rgba(169, 169, 169, 0.739);
     width: 320px;
     height: 80px;
     border-radius: 30px;
     margin: auto;
-    position: absolute;
-    top: 85%;
-    left: 51.5%;
-    transform: translate(-50%, -50%);
+    transform: translate(0%, 950%);   
 }
 
 #redes img {
@@ -68,17 +91,4 @@ main {
     margin: 0px 5px 0px 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.68);
     transition: .1s;
-}
-
-#iphone {
-    background: url(imagens/iPhone.png) center center no-repeat fixed;
-    background-size: 825px;
-    width: 100vw;
-    height: 96.1vh;
-    position: absolute;
-    top: 52%;
-    left: 48.4%;
-    transform: translate(-50%, -50%);
-    margin: auto;
-    z-index: 2;
 }
