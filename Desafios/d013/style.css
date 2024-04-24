@@ -9,7 +9,7 @@
 html, body {
     width: 100vw;
     height: 100vh;
-    background-color: #594933;
+    background-color: #243736;
 }
 
 body {
@@ -30,7 +30,6 @@ section#iphone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     width: 100vw;
     height: 100vh;
     background: url(imagens/iPhone.png) top center no-repeat fixed;
