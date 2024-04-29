@@ -8,27 +8,26 @@
 <body>
     <h1>Teste de Furmulário</h1>
 
-    <form action="cadastro.php" method="get" autocomplete="on">
-
-        <p>
-            <label for="iuser">User</label>
-            <input type="text" name="user" id="iuser" required minlength="5" maxlength="20" size="10" placeholder="User Name" autocomplete="name">
-        </p>
-
-        <p>
-            <label for="imedia">Média</label>
-            <input type="number" name="media" id="imedia" min="0" max="20" step=".1" placeholder="0 a 20" size="10" required>
-        </p>
-
-        <p>
-            <label for="idata">Período Letivo</label>
-            <input type="month" name="data" id="idata">
-        </p>
-
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+    <fieldset>
+        <legend>Formulário</legend>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <p>
+                <label for="iuser">User</label>
+                <input type="text" name="user" id="iuser" required minlength="5" maxlength="20" size="10" placeholder="User Name" autocomplete="name">
+            </p>
+            <p>
+                <label for="imedia">Média</label>
+                <input type="number" name="media" id="imedia" min="0" max="20" step=".1" placeholder="0 a 20" size="10" required>
+            </p>
+            <p>
+                <label for="idata">Período Letivo</label>
+                <input type="month" name="data" id="idata">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+    </fieldset>
     </form>
 </body>
 </html>
