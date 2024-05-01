@@ -4,12 +4,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sevillana&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     --cor001: #f1f1f184;
     --cor002: #f4f4f4;
     --cor003: #DC602E;
+    --cor004: #e1e1e171;
 }
 
 html {
@@ -18,7 +21,7 @@ html {
 }
 
 div {
-    width: 100%;
+    width: 1550px;
     height: 11px;
     margin: auto;
 }
@@ -32,7 +35,7 @@ header {
     margin-bottom: 50px;
 }
 
-div h1 {
+div h1 a{
     display: inline-block;
     padding-top: 15px;
     margin-left: 70px;
@@ -40,6 +43,7 @@ div h1 {
     font-weight: 400;
     position: absolute;
     top: 0%;
+    color: black;
 }
 
 div ul {
@@ -52,8 +56,25 @@ div ul {
 
 div li {
     display: inline-block;
-    margin: 5px;
     font-weight: bolder;
+    color: var(--cor003);
+    font-family: "Merriweather", serif;
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+div li a:hover {
+    background-color: var(--cor004);
+    padding: 10px 10px 21px 10px;
+    box-shadow:0px -1px 6px rgba(136, 136, 136, 0.377);
+    margin: -30px -10px 0px -10px;
+    color: rgb(247, 117, 65);
+    border-radius: 20px 20px 0px 0px;
+    transition: 0.08s, .3s padding-top;
+}
+
+div li a:active {
+    background-color: rgba(195, 195, 195, 0.293);
     color: var(--cor003);
 }
 
@@ -65,7 +86,7 @@ div form input{
     font-size: 1em;
     position: absolute;
     margin-top: 20px;
-    right: 28%;
+    right: 22.5%;
 }
 
 div img#menu {
@@ -75,23 +96,65 @@ div img#menu {
     top: 2.1%;
 }
 
-div img#conta {
-    width: 32px;
-    position: absolute;
-    right: 10vw;
-    margin-top: 10px;
-}
-
-div img#carrinho {
-    width: 30px;
-    position: absolute;
-    right: 7.5%;
-}
-
 div img#menu:hover {
     width: 32px;
     display: block;
-    padding-bottom: 2px;
+    padding: 10px 10px 19px 10px;
+    box-shadow:0px -1px 6px rgba(136, 136, 136, 0.377);
+    margin-top: -11px;
+    margin-left: 9px;
+    background-color: var(--cor004);
+    border-radius: 20px 20px 0px 0px;
+}
+
+div img#menu:active {
+    width: 31px;
+    margin-left: 17.5px;
+    margin-top: -2.5px;
+    background-color: rgba(195, 195, 195, 0.293);
+}
+
+div img#conta {
+    width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 11vw;
+    margin-top: 10px;
+}
+
+div img#conta:hover {
+    margin: 0px -10px 0px 0px;
+    background-color: var(--cor004);
+    padding: 10px 10px 17px 10px;
+    box-shadow:0px -1px 6px rgba(136, 136, 136, 0.377);
+    border-radius: 20px 20px 0px 0px;
+    transition: .1s;
+}
+
+div img#conta:active {
+    margin: 0px -10px 0px 0px;
+    background-color: rgba(195, 195, 195, 0.293);
+}
+
+div img#carrinho {
+    width: 28px;
+    position: absolute;
+    right: 7.5%;
+    margin-top: 1px;
+}
+
+div img#carrinho:hover {
+    margin: -9px -10px 0px 0px;
+    background-color: var(--cor004);
+    padding: 10px 10px 17px 10px;
+    box-shadow:0px -1px 6px rgba(136, 136, 136, 0.377);
+    border-radius: 20px 20px 0px 0px;
+    transition: .1s;
+}
+
+div img#carrinho:active {
+
+    background-color: rgba(195, 195, 195, 0.293);
 }
 
 main {
@@ -109,6 +172,7 @@ article {
     text-align: left;
     line-height: 1.5em;
     margin-bottom: 30px;
+    border-radius: 15px;
 }
 
 article h1 {
@@ -125,6 +189,7 @@ article h1 {
     display: block;
     width: 100%; 
     background-color: var(--cor002);
+    border-radius: 15px;
 }
 
 footer {
