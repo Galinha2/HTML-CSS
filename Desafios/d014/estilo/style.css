@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/* MOBILE FIRST */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    --corheader: #ffffff;
+    --corartigo: #ffffff;
+    --corfundo: #f4f4f4;
+    --corvastoimperio: #33658A;
+}
+
+/* HEADER */
+header {
+    position: relative;
+    background-color: var(--corheader);
+    box-shadow: 0px 0px 5px rgba(145, 145, 145, 0.47);
+    height: 90px;
+    margin-bottom: 40px;
+}
+
+header img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+header form {
+    text-align: center;
+    position: relative;
+    left: 60px;
+    margin-top: -4px;
+}
+
+header input {
+    width: 65%;
+    height: 35px;
+    background-color: #e6e6e6;
+    border: 1px solid  rgba(0, 0, 0, 0);
+    font-size: 1em;
+    border-radius: 5px;
+    position: relative;
+    top: -40px;
+    right: 10px;
+}
+
+header input p {
+    margin-left: 100px;
+}
+
+header ul {
+    display: none;
+}
+
+ /* ICONS */
+#menu {
+    position: absolute;
+    width: 30px;
+    margin-top: 7.5px;
+    right: 21.5px;
+}
+
+#conta {
+    position: absolute;
+    right: 95px;
+    top: 7.5px;
+    width: 30px;
+}
+
+#carrinho {
+    position: absolute;
+    right: 58px;
+    top: 7.5px;
+    width: 30px;
+}
+
+/* MAIN HTML */
+html {
+    background-color: var(--corfundo);
+    width: 100vw;
+}
+
+main {
+    margin: auto;
+    min-width: 350px;
+    max-width: 1550px;
+    font-size: 1em;
+}
+
+#vc {
+    width: 50vw;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+span {
+    color: #33658A;
+    font-weight: bolder;
+}
+
+main h1 {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+article {
+    padding: 20px;
+    background-color: var(--corartigo);
+    line-height: 1.3em;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 4px rgba(188, 188, 188, 0.423);
+}
+
+article img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--corheader);
+    text-align: center;
+    height: 80px;
+}
+
+footer li {
+    margin-top: 15px;
+    color: var(--corvastoimperio) ;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    position: relative;
+    left: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--corvastoimperio);
+}
