@@ -31,7 +31,6 @@ header img {
 header form {
     text-align: center;
     position: relative;
-    left: 60px;
     margin-top: -4px;
 }
 
@@ -44,11 +43,7 @@ header input {
     border-radius: 5px;
     position: relative;
     top: -40px;
-    right: 10px;
-}
-
-header input p {
-    margin-left: 100px;
+    right: -50px;
 }
 
 header ul {
@@ -59,8 +54,15 @@ header ul {
 #menu {
     position: absolute;
     width: 30px;
+    height: 30px;
     margin-top: 7.5px;
     right: 21.5px;
+}
+
+#menu:hover {
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    padding: 2px;
 }
 
 #conta {
@@ -70,6 +72,12 @@ header ul {
     width: 30px;
 }
 
+#conta:hover {
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    padding: 2px;
+}
+
 #carrinho {
     position: absolute;
     right: 58px;
@@ -77,10 +85,16 @@ header ul {
     width: 30px;
 }
 
+#carrinho:hover {
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    padding: 2px;
+}
 /* MAIN HTML */
 html {
     background-color: var(--corfundo);
     width: 100vw;
+    
 }
 
 main {
