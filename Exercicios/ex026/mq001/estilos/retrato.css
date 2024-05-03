@@ -1,3 +1,79 @@
 @charset "UTF-8";
 
 /* modo retrato */
+
+html, body {
+    width: 100%;
+}
+
+header {
+    background-color: var(--cor002);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.258);
+    width: 100%;
+    min-width: 350px;
+    height: 90px;
+    margin-bottom: 50px;
+}
+
+div h1 a{
+    display: inline-block;
+    padding-top: 15px;
+    margin-left: 48px;
+    font-family:"Newsreader, Arial, Helvetica, sans-serif";
+    font-weight: 400;
+    position: absolute;
+    top: 0%;
+    color: black;
+}
+
+div ul {
+    display: none;
+    height: 0px;
+    position: absolute;
+    margin-left: 160px;
+    top: 3.2%;
+}
+
+div li {
+    display: inline-block;
+    font-weight: bolder;
+    color: var(--cor003);
+    font-family: "Merriweather", serif;
+    font-size: 0.6em;
+    margin-right: 4px;
+}
+
+div form input{
+    width: 80%;
+    height: 30px;
+    border: 1px black;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+    font-size: 1em;
+    position: absolute;
+    margin-top: 50px;
+    right: 9%;
+}
+
+div img#menu {
+    width: 25px;
+    display: inline-block;
+    position: absolute;
+    right: 9%;
+    top: 2.5%;
+}
+
+div img#conta {
+    width: 25px;
+    display: inline-block;
+    position: absolute;
+    right: 24vw;
+    margin-top: 6px;
+}
+
+div img#carrinho {
+    width: 23px;
+    position: absolute;
+    right: 17vw;
+    margin-top: -3px;
+}
