@@ -16,7 +16,7 @@
     }
 
     #conta {
-        right: 105px;
+        right: 100px;
     }
 
     #carrinho {
@@ -36,6 +36,24 @@
         margin-bottom: 80px;
     }
 
+    header li {
+        display: inline-block;
+        margin-right: 90px;
+        color: var(--corvastoimperio);
+    }
+
+    header ul {
+        text-align: center;
+        font-size: 1em;
+        font-weight: 500;
+        margin-top: 79px;
+        padding: 10px;
+        background-color: #ffffff77;
+        width: 100vw;
+        box-shadow: 0px 0px 5px rgba(145, 145, 145, 0.47);
+        border-top: 1px solid var(--corvastoimperio);
+    }
+    
     header img {
         width: 90px;
         position: absolute;
@@ -51,9 +69,10 @@
         height: 45px;
     }
 
-    #menu {
-        top: 17px;
-        left: -50px
+    #burguer {
+        top: 20px;
+        left: 50px;
+        width: 1em;
     }
 
     #carrinho {
@@ -85,6 +104,25 @@
         margin-top: 3px;
     }
 
+    header ul {
+        text-align: center;
+        font-size: 1em;
+        font-weight: 500;
+        margin-top: 79px;
+        padding: 10px;
+        background-color: #ffffff77;
+        width: 100vw;
+        box-shadow: 0px 0px 5px rgba(145, 145, 145, 0.47);
+        border-top: 1px solid var(--corvastoimperio);
+    }
+    
+    header li {
+        display: inline-block;
+        margin-right: 90px;
+        color: var(--corvastoimperio);
+    }
+    
+
     header input {
         width: 50%;
         display: inline-block;
@@ -94,53 +132,24 @@
         height: 45px;
     }
 
-    #menu {
+    #burguer {
         top: 17px;
-        left: -40px
+        left: 40px;
+        width: 1em;
     }
 
 
     #carrinho {
         top: 25px;
-        right: 117px;
+        right: 40px;
     }
 
     #conta {
-        top: 25px;
-        right: 170px;
+        top: 24.4px;
+        right: 85px;
     }
 
     header ul {
         display: block;
     }
-}
-
-header ul {
-    text-align: center;
-    font-size: 1em;
-    font-weight: 500;
-    margin-top: 79px;
-    padding: 10px;
-    background-color: #ffffff77;
-    width: 100vw;
-    box-shadow: 0px 0px 5px rgba(145, 145, 145, 0.47);
-    border-top: 1px solid var(--corvastoimperio);
-}
-
-header li {
-    display: inline-block;
-    margin-right: 90px;
-    color: var(--corvastoimperio);
-}
-
-header li:hover {
-    background-color: #e3e3e377;
-    padding: 10px;
-    display: inline;
-    margin-right: 80px;
-    margin-left: -10px;
-}
-
-header li:active {
-    background-color: rgb(228, 228, 228);
 }

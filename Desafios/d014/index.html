@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="estilo/style.css" media="all">
     <link rel="stylesheet" href="estilo/media-queries.css">
 
+    <link href= "https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <img src="imagens/mini.png" alt="logo">
 
-        <a href="#" target="app"><img id="menu" src="imagens/icon-menu-azulvp.png" alt="icon-menu"></a>
-        <a href="#" target="app"><img id="carrinho" src="imagens/carrinho-icon-azulvp.png" alt="icon-carrinho"></a>
-        <a href="#" target="app"><img id="conta" src="imagens/icon-conta-azulvp.png" alt="icon-conta"></a>
+        <i id="burguer" class="material-icons" onclick="clickMenu ()">menu</i>
+        <i id="carrinho" class="material-icons">shopping_bag</i>
+        <i id="conta" class="material-icons">person</i>
 
         <form action="pesquisa.php" method="get" autocomplete="on">
 
@@ -23,13 +25,15 @@
 
         </form>
 
-        <ul>
-            <li><a href="#">Cadeiras</a></li>
-            <li><a href="#">Estantes</a></li>
-            <li><a href="#">Prateleiras</a></li>
-            <li><a href="#">Peças</a></li>
-            <li><a href="#">Artigos</a></li>
-        </ul>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Cadeiras</a></li>
+                <li><a href="#">Estantes</a></li>
+                <li><a href="#">Prateleiras</a></li>
+                <li><a href="#">Peças</a></li>
+                <li><a href="#">Artigos</a></li>
+            </ul>
+        </menu>
     </header>
 
     <main>
@@ -83,5 +87,15 @@
             Website criado por <a href="../../../Desafios/d013/index.html">Henrique Galinha</a>
         </p>
     </footer>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+        }
+    </script>
 </body>
 </html>

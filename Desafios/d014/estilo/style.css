@@ -47,50 +47,69 @@ header input {
     right: -50px;
 }
 
-header ul {
-    display: none;
+#itens {
+    width: 400px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100vh;
+    box-shadow: 0px 0px 7px rgba(161, 161, 161, 0.511);
+}
+
+header li {
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 50px;
+    top: 20px;
+    position: relative;
 }
 
  /* ICONS */
-#menu {
+#burguer {
     position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-top: 7.5px;
-    right: 21.5px;
+    margin-top: 5px;
+    right: 30px;
+    color: #33658A;
+    cursor: pointer;
+    font-size: 2em;
+    z-index: 9999;
 }
 
-#menu:hover {
+#burguer:hover {
     background-color: #e5e5e5;
     border-radius: 20px;
-    padding: 2px;
 }
 
 #conta {
     position: absolute;
-    right: 95px;
-    top: 7.5px;
-    width: 30px;
+    right: 100px;
+    top: 3.75px;
+    color: #33658A;
+    font-size: 2.3em;
+    cursor: pointer;
 }
 
 #conta:hover {
     background-color: #e5e5e5;
     border-radius: 20px;
-    padding: 2px;
 }
 
 #carrinho {
     position: absolute;
-    right: 58px;
-    top: 7.5px;
-    width: 30px;
+    right: 65px;
+    top: 5px;
+    color: #33658A;
+    font-size: 2em;
+    cursor: pointer;
 }
 
 #carrinho:hover {
     background-color: #e5e5e5;
-    border-radius: 20px;
-    padding: 2px;
+    border-radius: 40px;
 }
+
 /* MAIN HTML */
 html {
     background-color: var(--corfundo);
@@ -159,4 +178,21 @@ footer li {
 a {
     text-decoration: none;
     color: var(--corvastoimperio);
+}
+
+/* TESTE PÁGINA PRINCIPAL */
+#alogo {
+    background-color: #b6b6b6;
+    position: relative;
+    margin-top: -41px;
+}
+
+#logo {
+    min-width: 500px;
+    max-width: 1100px;
+    padding: 10px;
+    padding-left: 28%;
+    padding-right: 28%;
+    margin: auto;
+    display: block;
 }
