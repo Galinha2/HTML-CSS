@@ -10,4 +10,9 @@ Projetos:
  
  <a href="https://galinha2.github.io/HTML-CSS/Desafios/d012/cordel.html">Cordel Moderno</a>
 
- <a href="https://galinha2.github.io/HTML-CSS/Desafios/d013/index.html">Cordel Moderno</a>
+ <a href="https://galinha2.github.io/HTML-CSS/Desafios/d013/index.html">Redes</a>
+
+ <a href="https://galinha2.github.io/HTML-CSS/Desafios/d014/index.html">Página Web</a>
+
+ <a href="https://galinha2.github.io/HTML-CSS/Desafios/d015/index.html">Página de Login</a>
+
