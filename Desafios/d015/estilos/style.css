@@ -13,7 +13,7 @@ a {
     color: var(--corvastologo);
 }
 
-html {
+html, body {
     background-color: rgb(245, 245, 245);
 }
 
@@ -28,6 +28,9 @@ main {
     margin: auto;
     padding: 20px;
     border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(216, 216, 216, 0.414);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease
 }
 
 #logo {
@@ -42,6 +45,8 @@ main h1 {
     font-weight: no;
     text-align: center;
     margin-top: 10px;
+    transition: font-size .5s;
+    transition-timing-function: ease
 }
 
 span {
@@ -59,6 +64,8 @@ span {
     border: 1px solid rgb(199, 199, 199);
     border-radius: 2px;
     font-size: .9em;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease
 }
 
 
@@ -116,10 +123,14 @@ span {
 
 #iniciar-sessao {
     background-color: var(--corvastologo);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease
 }
 
 #criar-conta {
     background-color: var(--corvastoimperio);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease
 }
 
 #iniciar-sessao:hover {
