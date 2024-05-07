@@ -5,8 +5,8 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-    --corvastoimperio: #33658A;
-    --corvastologo: #DC602E;
+    --corvastoimperio: #067BC2;
+    --corvastologo: #FF6000;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 }
 
 html {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(245, 245, 245);
 }
 
 article {
@@ -27,7 +27,7 @@ main {
     height: 550px;
     margin: auto;
     padding: 20px;
-    border-radius: 2px;
+    border-radius: 15px;
 }
 
 #logo {
