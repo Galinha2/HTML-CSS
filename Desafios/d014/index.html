@@ -10,13 +10,13 @@
     <link href= "https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-        <img src="imagens/mini.png" alt="logo">
+        <img src="imagens/logo-vasto-imperio-mini.png" alt="logo">
 
         <i id="burguer" class="material-icons" onclick="clickMenu ()">menu</i>
         <i id="carrinho" class="material-icons">shopping_bag</i>
-        <i id="conta" class="material-icons">person</i>
+        <a href="../d015/index.html"><i id="conta" class="material-icons">person</i></a>
 
         <form action="pesquisa.php" method="get" autocomplete="on">
 
@@ -40,7 +40,7 @@
 
         <h1><span>|</span>Quem somos?</h1>
 
-        <article><img id="vc" src="imagens/vasto.png" alt="vasto"></article>
+        <article><img id="vc" src="imagens/logo-vasto-imperio.png" alt="vasto"></article>
 
         <article>
             <p>
@@ -89,13 +89,22 @@
     </footer>
 
     <script>
+
+        function mudouTamanho() {
+        if (window.innerwidth >= 768) {
+        itens.style.display = 'block'
+        } else {
+        itens.style.display = 'none'
+        }
+    }
+
         function clickMenu() {
             if (itens.style.display == 'block') {
             itens.style.display = 'none'
         } else {
             itens.style.display = 'block'
         }
-        }
+    }
     </script>
 </body>
 </html>

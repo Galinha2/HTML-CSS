@@ -22,10 +22,6 @@
     #carrinho {
         right: 65px;
     }
-
-    header ul {
-        display: none;
-    }
 }
 
 /* COMPUTADOR */
@@ -40,18 +36,19 @@
         display: inline-block;
         margin-right: 90px;
         color: var(--corvastoimperio);
+        top: 0px;
     }
 
-    header ul {
+    #itens {
         text-align: center;
         font-size: 1em;
         font-weight: 500;
         margin-top: 79px;
-        padding: 10px;
         background-color: #ffffff77;
         width: 100vw;
         box-shadow: 0px 0px 5px rgba(145, 145, 145, 0.47);
         border-top: 1px solid var(--corvastoimperio);
+        height: 50px;
     }
     
     header img {
@@ -104,24 +101,33 @@
         margin-top: 3px;
     }
 
-    header ul {
-        text-align: center;
-        font-size: 1em;
-        font-weight: 500;
-        margin-top: 79px;
-        padding: 10px;
-        background-color: #ffffff77;
-        width: 100vw;
-        box-shadow: 0px 0px 5px rgba(145, 145, 145, 0.47);
-        border-top: 1px solid var(--corvastoimperio);
-    }
-    
     header li {
         display: inline-block;
         margin-right: 90px;
         color: var(--corvastoimperio);
+        top: 0px;
     }
-    
+
+    li:hover {
+        color: var(--corvastologo);
+        background-color: rgb(235, 235, 235);
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 80px;
+    }
+
+    #itens {
+        text-align: center;
+        font-size: 1em;
+        font-weight: 500;
+        margin-top: 79px;
+        background-color: #ffffff77;
+        width: 100vw;
+        box-shadow: 0px 0px 5px rgba(145, 145, 145, 0.47);
+        border-top: 1px solid var(--corvastoimperio);
+        height: 50px;
+        display: block;
+    }
 
     header input {
         width: 50%;
@@ -147,9 +153,5 @@
     #conta {
         top: 24.4px;
         right: 85px;
-    }
-
-    header ul {
-        display: block;
     }
 }

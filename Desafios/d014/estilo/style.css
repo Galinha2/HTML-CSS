@@ -12,6 +12,7 @@
     --corartigo: #ffffff;
     --corfundo: #f4f4f4;
     --corvastoimperio: #33658A;
+    --corvastologo: #DC602E;
 }
 
 /* HEADER */
@@ -66,48 +67,56 @@ header li {
     position: relative;
 }
 
+header li:hover {
+    color: var(--corvastologo)
+}
+
  /* ICONS */
 #burguer {
     position: absolute;
     margin-top: 5px;
     right: 30px;
-    color: #33658A;
     cursor: pointer;
     font-size: 2em;
     z-index: 9999;
+    color: var(--corvastoimperio)
 }
 
 #burguer:hover {
     background-color: #e5e5e5;
     border-radius: 20px;
+    color: var(--corvastologo)
 }
 
 #conta {
     position: absolute;
     right: 100px;
     top: 3.75px;
-    color: #33658A;
     font-size: 2.3em;
     cursor: pointer;
+    color: var(--corvastoimperio)
 }
 
 #conta:hover {
     background-color: #e5e5e5;
     border-radius: 20px;
+    color: var(--corvastologo)
 }
 
 #carrinho {
     position: absolute;
     right: 65px;
     top: 5px;
-    color: #33658A;
     font-size: 2em;
     cursor: pointer;
+    color: var(--corvastoimperio)
 }
 
 #carrinho:hover {
     background-color: #e5e5e5;
     border-radius: 40px;
+    color: var(--corvastologo)
+    
 }
 
 /* MAIN HTML */
@@ -132,7 +141,7 @@ main {
 }
 
 span {
-    color: #33658A;
+    color: var(--corvastologo);
     font-weight: bolder;
 }
 
