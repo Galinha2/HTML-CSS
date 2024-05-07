@@ -65,7 +65,8 @@ span {
     border-radius: 2px;
     font-size: .9em;
     transition: width .3s, height .3s;
-    transition-timing-function: ease
+    transition-timing-function: ease;
+    padding-left: 10px;
 }
 
 
