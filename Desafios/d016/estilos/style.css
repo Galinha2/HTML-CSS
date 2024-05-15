@@ -78,6 +78,8 @@ i {
 #conta {
     font-size: 2.4em;
     color: rgb(255, 255, 255);
+    position: relative;
+    top: 4px;
 }
 
 #carrinho {
