@@ -9,18 +9,31 @@
             display: flex;
             background-color: orange;
             flex-flow: row nowrap;
-            padding: 10px;
+            padding: 1px;
         }
 
         div {
             border: 1px solid black;
-            flex-basis: 150px;
+            flex-basis: 200px;
             background-color: aqua;
             text-align: center;
-            flex-grow: 1;
             margin: 1px;
         }
 
+        #i1 {
+            flex-grow: 1;
+            flex-shrink: 0 ;
+        }
+
+        #i2 {
+            flex-grow: 40;
+            flex-shrink: 1;
+        }
+
+        #i3 {
+            flex-grow: 0;
+            flex-shrink: 2;
+        }
 
     </style>
 </head>
@@ -29,9 +42,6 @@
         <div class="item" id="i1">A</div>
         <div class="item" id="i2">BBBB BBB BBB</div>
         <div class="item" id="i3">C</div>
-        <div class="item" id="i4">D</div>
-        <div class="item" id="i5">EEE EEEE EEEE</div>
-        <div class="item" id="i6">F</div>
     </div>
 </body>
 </html>

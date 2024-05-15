@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    --corvastoimperio: #0072BB;
+    --corvastologo: #FF6000;
+
+    border: 1px solid black;*/
+}
+
+html, body {
+    background-color: var(--corvastologo);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    background-color: rgb(227, 227, 227);
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: var(--corvastologo);
+    padding: 0px 20px 15px 20px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 7px rgba(136, 136, 136, 0.493);
+}
+
+#logo {
+    background: url(../../imagens/logo-vasto-imperio-white.png) center center no-repeat;
+    background-size: 100px;
+    order: 1;
+    flex: 0 0 90px;
+    height: 80px; 
+    width: 85px;
+}
+
+#lista {
+    display: none;
+}
+
+#menu-logo {
+    display: none;
+    font-size: 2em;
+}
+
+input {
+    flex: 1 1 100vw;
+    height: 30px;
+    padding: 5px;
+    border: 0px;
+    background-color: #ffffff;
+    order: 4;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+i {
+    justify-content: flex-end;
+    align-self: center;
+    color: rgb(255, 255, 255);
+}
+
+.icons {
+    order: 2;
+    align-self: center;
+}
+
+#menu {
+    font-size: 2em;
+}
+
+#conta {
+    font-size: 2.4em;
+    color: rgb(255, 255, 255);
+}
+
+#carrinho {
+    font-size: 2em;
+}
+
+i:hover, #conta:hover {
+    color: #0072BB;
+    cursor: pointer;
+}
+
+i:active, #conta:active {
+    color: #0072BB;
+}
