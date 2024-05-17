@@ -18,15 +18,18 @@ main {
     background-color: rgb(227, 227, 227);
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 header {
     background-color: var(--corvastologo);
     box-shadow: 0px 0px 7px rgba(136, 136, 136, 0.493);
     height: 135px;
+    width: 100vw;
 }
 
-#artigo {
+article {
     max-width: 100vw;
     margin: auto;
     margin-left: 20px;
@@ -92,11 +95,34 @@ i {
     font-size: 2em;
 }
 
-i:hover, #conta:hover {
+i:hover, #conta:hover, #carrinho:hover {
     color: #0072BB;
     cursor: pointer;
 }
 
 i:active, #conta:active {
     color: #0072BB;
+}
+
+footer {
+    align-self: flex-end;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    padding: 20px 0px;
+}
+
+#artigo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; 
+}
+
+footer p {
+    line-height: 1.1em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: .8em;
+    text-align: left;
+    margin: auto;
+    margin-left: 0px;
 }

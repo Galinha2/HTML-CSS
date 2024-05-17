@@ -50,12 +50,15 @@
 @media screen and (min-width: 1200px) {
 
     header {
-        margin: auto;
+        align-self: flex-start;
+        order: -100;
     }
 
-    #artigo {
+    article {
         max-width: 1550px;
         margin: auto;
+        padding: 0px 20px;
+        align-self: flex-start;
     }
 
     #lista {
@@ -82,5 +85,20 @@
 
     input {
         flex: 1 1 10vw;
+    }
+
+    footer {
+        flex-flow: column-reverse;
+    }
+
+    #artigo {
+        align-self: flex-end;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    footer p {
+        align-self: flex-end;
+        line-height: 1.5em;
     }
 }
