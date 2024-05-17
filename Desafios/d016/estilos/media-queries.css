@@ -53,6 +53,11 @@
         margin: auto;
     }
 
+    #artigo {
+        max-width: 1550px;
+        margin: auto;
+    }
+
     #lista {
         display: block;
         order: 2;
