@@ -57,6 +57,13 @@ article {
     font-size: 2em;
 }
 
+span {
+    color: var(--corvastologo);
+    font-weight: 100;
+    font-size: .5em;
+    text-decoration: none;
+}
+
 input {
     flex: 1 1 100vw;
     height: 30px;
@@ -109,20 +116,23 @@ footer {
     background-color: rgb(255, 255, 255);
     width: 100vw;
     padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#artigo {
+.artigo {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between; 
+    flex-direction: column;
+    align-items: center;
 }
 
 footer p {
     line-height: 1.1em;
     margin-bottom: 20px;
     text-align: center;
-    font-size: .8em;
-    text-align: left;
+    font-size: .75em;
+    text-align: center;
     margin: auto;
-    margin-left: 0px;
+    font-weight: 100;
 }

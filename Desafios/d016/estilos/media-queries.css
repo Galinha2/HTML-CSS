@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 768px) {
+    footer {
+        display: flex;
+        justify-content: space-between; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+
+    .artigo {
+        display: flex;
+        flex-direction: row; /* Stack paragraphs vertically */
+        align-items: center; /* Center paragraphs horizontally */
+        flex: 1 1 auto;
+    }
+
+    .artigo p {
+        text-align: left;
+    }
+}
+
 @media screen and (min-width: 992px) {
 
     header {
@@ -70,6 +89,7 @@
     li {
         display: inline-block;
         margin-left: 15px;
+        margin-top: -15px;
     }
 
     a {
@@ -87,18 +107,25 @@
         flex: 1 1 10vw;
     }
 
-    footer {
-        flex-flow: column-reverse;
-    }
-
-    #artigo {
-        align-self: flex-end;
-        justify-content: space-between;
-        margin: auto;
-    }
-
     footer p {
         align-self: flex-end;
         line-height: 1.5em;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .artigo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex: 1 1 auto;
+    }
+
+    .artigo p {
+        text-align: left;
     }
 }
